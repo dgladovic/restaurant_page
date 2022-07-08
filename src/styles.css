@@ -1,0 +1,44 @@
+.hud{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hud *{
+    width: 100px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 5px;
+
+
+}
+
+#content{
+    width: 100%;
+    margin:auto;
+    margin-top: 50px;
+}
+h1{
+    width: fit-content;
+    margin: auto;
+}
+
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: fit-content;
+    margin: auto;
+}
+
+.slika{
+    display: block;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 25px;
+}
